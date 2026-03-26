@@ -1,0 +1,14 @@
+ID,Kernel Name,Metric Name,Metric Unit,Metric Value
+0,fused_attention_v100_kernel,sm__throughput.avg.pct_of_peak,%,92.4
+0,fused_attention_v100_kernel,sm__inst_executed_pipe_tensor.avg.pct_of_peak,%,81.2
+0,fused_attention_v100_kernel,smsp__sass_thread_inst_executed_op_fadd_pred_on.sum,inst,5242880
+0,fused_attention_v100_kernel,smsp__sass_thread_inst_executed_op_fmul_pred_on.sum,inst,5242880
+0,fused_attention_v100_kernel,smsp__sass_thread_inst_executed_op_ffma_pred_on.sum,inst,83886080
+0,fused_attention_v100_kernel,dram__bytes_read.sum,byte,12582912
+0,fused_attention_v100_kernel,dram__bytes_write.sum,byte,1048576
+0,fused_attention_v100_kernel,smsp__warps_active.avg.pct_of_peak,%,43.8
+0,fused_attention_v100_kernel,smsp__compute_inst_stalled_math_pipe_throttle_pct,%,68.5
+0,fused_attention_v100_kernel,smsp__compute_inst_stalled_mem_throttle_pct,%,4.2
+0,fused_attention_v100_kernel,l1tex__data_pipe_lsu_wavefronts_mem_shared.sum,inst,16777216
+0,fused_attention_v100_kernel,l1tex__data_pipe_lsu_requests_mem_shared.sum,inst,16777216
+0,fused_attention_v100_kernel,l1tex__t_sector_hit_rate.pct,%,99.1
