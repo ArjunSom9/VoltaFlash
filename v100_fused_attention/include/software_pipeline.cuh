@@ -63,7 +63,7 @@ __device__ __forceinline__ void load_tile_to_smem(
         int col = i % HEAD_DIM;
         
         // Target swizzled address to avoid bank conflicts
-        int smem_idx = x_swizzle(row, col, HEAD_DIM);
+        int smem_idx = xor_swizzle(row, col, HEAD_DIM);
         
         // Volatile cast ensures the compiler doesn't reorder these reads
         // outside of the intended software pipeline phase.
